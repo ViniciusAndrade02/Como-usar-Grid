@@ -1,0 +1,146 @@
+*{
+  margin: 0%;
+}
+
+html{
+  background-color: #f1f1f1;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+label{
+
+  color: black;
+  font-weight: 600;
+}
+
+span{
+
+  grid-column: 2;
+  font-size: 65px;
+  text-align:right;
+  color: rgb(177, 175, 173);
+  align-self: center;
+  padding-right: 15px;
+
+}
+p{
+  font-size: 20px;
+}
+
+
+.titulo{
+
+  display: flex;
+  height: 15vh;
+  width: 100%;
+
+  justify-content: center;
+  align-items: end;
+}
+
+.t1{
+  font-size: 6vh;
+}
+
+
+.info{
+  display: flex;
+  flex-wrap: wrap;
+  place-items: start;
+  height: 15vh;
+  width: 100%;
+  gap: 18px;
+
+  justify-content: center;
+  align-items: end;
+}
+
+#t2{
+
+  color: black;
+  
+  background-color: white;
+  padding: 15px 25px;
+}
+
+.grid{
+
+  display: grid;
+  max-width: 100%;
+  grid-template-columns: 10% 40% 40% 10%;
+  margin-top: 60px;
+}
+
+.desc{
+
+  background-color: rgb(255, 255, 255);
+  grid-column: 2;
+  text-align: right;
+  display: grid;
+  align-content: center;
+  gap: 20px;
+  justify-items: end;
+  padding-right: 20px;
+
+}
+
+.desc h2{
+  font-size: 35px;
+}
+
+.desc p {
+  max-width: 450px;
+}
+
+button{
+  padding: 15px 40px;
+  background-color: #ee2211;
+  border: 0px;
+  color: #f5eeee;
+  border-radius: 5px;
+}
+
+.foto{
+  grid-column: 3;
+}
+
+.png{
+  max-width: 100%;
+}
+
+.vantagem{
+
+  display: grid;
+  grid-template-columns:1fr;
+  background-color: #ffffff;
+  padding: 40px;
+
+
+}
+
+.sub-vantagem{
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 10px 20px;
+  padding: 20px;
+
+}
+
+.sub-vantagem p{
+  grid-column: 2;
+  max-width: 90%;
+}
+
+
+
+
+.credito{
+
+  display: flex;
+  height: 15vh;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+}
